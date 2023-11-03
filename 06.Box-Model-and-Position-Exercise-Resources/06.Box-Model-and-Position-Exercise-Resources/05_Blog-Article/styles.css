@@ -1,0 +1,39 @@
+body {
+    background-color: #02475e;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #fefecc;
+    margin: 12px;
+}
+
+    article p {
+        margin-top: 60px;
+        font-family: Arial, sans-serif;
+        text-indent: 30px;
+        color:#eee;
+}
+
+article div {
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    position: relative;
+    top: 20px;
+}
+
+article div span {
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: 0px auto;
+    display: block;
+    background-color: #eee;
+    position: absolute;
+    bottom: -11px;
+    right: 40%;
+    
+}

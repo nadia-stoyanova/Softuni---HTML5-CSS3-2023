@@ -1,0 +1,64 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    gap: 1em;
+    
+   
+}
+
+header {
+    padding: 2em 1em;
+}
+
+footer {
+    padding: 1em;
+}
+
+aside {
+    flex: 1 1 25%;
+    padding: 2em 1em;
+}
+
+section{ 
+    flex: 1 1 65%;
+    padding: 2em 1em;
+        
+   
+}
+
+header, footer {
+    flex: 1 1 100%;
+}
+
+
+header, footer, aside, section {
+    background-color: lightblue;
+}
+aside  li {
+    list-style-type: none;
+    padding: 0.5em;
+}
+
+section li {
+    padding: 0.5em;
+}
+
+section ul {
+    display: block;
+    margin-left: 2em;
+}
+
+@media (max-width: 500px) {
+body {
+    flex-direction: column;
+}
+
+}

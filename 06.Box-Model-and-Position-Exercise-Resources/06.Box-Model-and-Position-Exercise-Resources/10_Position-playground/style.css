@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.container:nth-child(1) {
+    background: rgb(1,4,19);
+    background: linear-gradient(90deg, rgba(1,4,19,1) 0%, rgba(9,113,121,0.8548669467787114) 48%, rgba(35,255,0,1) 100%);
+}
+
+.container:nth-child(2) {
+    background: rgb(205,29,142);
+background: linear-gradient(90deg, rgba(205,29,142,1) 0%, rgba(201,73,90,1) 48%, rgba(255,63,0,1) 100%);
+}
+
+.card {
+    width: 10em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em 0.5em ease-in rgb(0, 0, 0, 00.5em);
+}
+
+i {
+    
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
